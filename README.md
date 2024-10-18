@@ -6,10 +6,11 @@ ComfyUI-FreeMemory is a custom node extension for ComfyUI that provides advanced
 
 ## Features
 
-- Three specialized nodes for freeing memory:
+- Four specialized nodes for freeing memory:
   1. **Free Memory (Image)**: Cleans up memory while passing through image data
   2. **Free Memory (Latent)**: Cleans up memory while passing through latent data
   3. **Free Memory (Model)**: Cleans up memory while passing through model data
+  4. **Free Memory (CLIP)**: Cleans up memory while passing through CLIP model data
 
 - Attempts to free both GPU VRAM and system RAM
 - Compatible with both Windows and Linux systems
@@ -33,8 +34,8 @@ ComfyUI-FreeMemory is a custom node extension for ComfyUI that provides advanced
 Insert these nodes at strategic points in your workflow to free up memory. This can potentially allow for larger batch sizes or more complex operations without running out of resources.
 
 ### Basic Usage
-1. Add a FreeMemory node (Image, Latent, or Model) to your workflow.
-2. Connect the appropriate input (image, latent, or model) to the node.
+1. Add a FreeMemory node (Image, Latent, Model, or CLIP) to your workflow.
+2. Connect the appropriate input (image, latent, model, or CLIP) to the node.
 3. Connect the output to the next step in your workflow.
 
 ### Aggressive Mode
