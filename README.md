@@ -10,7 +10,8 @@ ComfyUI-FreeMemory is a custom node extension for ComfyUI that provides advanced
   1. **Free Memory (Image)**: Cleans up memory while passing through image data
   2. **Free Memory (Latent)**: Cleans up memory while passing through latent data
   3. **Free Memory (Model)**: Cleans up memory while passing through model data
-  4. **Free Memory (CLIP)**: Cleans up memory while passing through CLIP model data
+  4. **Free Memory (CLIP)**: Cleans up memory while passing through Clip model data
+  5. **Free Memory (String)**: Cleans up memory while passing through String model data
 
 - Attempts to free both GPU VRAM and system RAM
 - Compatible with both Windows and Linux systems
