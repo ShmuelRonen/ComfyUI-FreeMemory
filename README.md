@@ -2,7 +2,8 @@
 
 ComfyUI-FreeMemory is a custom node extension for ComfyUI that provides advanced memory management capabilities within your image generation workflows. It aims to help prevent out-of-memory errors and optimize resource usage during complex operations.
 
-![free](https://github.com/user-attachments/assets/cfce1a2a-0171-4651-a164-330a431e6917)
+![image](https://github.com/user-attachments/assets/4d4f464e-86e9-413b-b227-9078cc01a588)
+
 
 ## Features
 
