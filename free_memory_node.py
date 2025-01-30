@@ -121,11 +121,28 @@ class FreeMemoryCLIP(FreeMemoryBase):
         self.free_memory(aggressive)
         return (clip,)
 
+class FreeMemoryString(FreeMemoryBase):
+    @classmethod
+    def INPUT_TYPES(s):
+        return {"required": {
+            "string": ("STRING",),
+            "aggressive": ("BOOLEAN", {"default": False})
+        }}
+    
+    RETURN_TYPES = ("STRING",)
+    FUNCTION = "free_memory_string"
+    CATEGORY = "Memory Management"
+
+    def free_memory_string(self, string, aggressive):
+        self.free_memory(aggressive)
+        return (string,)
+
 NODE_CLASS_MAPPINGS = {
     "FreeMemoryImage": FreeMemoryImage,
     "FreeMemoryLatent": FreeMemoryLatent,
     "FreeMemoryModel": FreeMemoryModel,
     "FreeMemoryCLIP": FreeMemoryCLIP,
+    "FreeMemoryString": FreeMemoryString,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -133,4 +150,5 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "FreeMemoryLatent": "Free Memory (Latent)",
     "FreeMemoryModel": "Free Memory (Model)",
     "FreeMemoryCLIP": "Free Memory (CLIP)",
+    "FreeMemoryString": "Free Memory (String)",
 }
