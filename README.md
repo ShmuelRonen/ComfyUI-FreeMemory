@@ -1,5 +1,10 @@
 # ComfyUI-FreeMemory
 
+## Support My Work
+If you find this project helpful, consider buying me a coffee:
+
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=shmuelronen&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/shmuelronen)
+
 ComfyUI-FreeMemory is a custom node extension for ComfyUI that provides advanced memory management capabilities within your image generation workflows. It aims to help prevent out-of-memory errors and optimize resource usage during complex operations.
 
 ![image](https://github.com/user-attachments/assets/4d4f464e-86e9-413b-b227-9078cc01a588)
